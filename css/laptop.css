@@ -1,0 +1,29 @@
+/* 1449px-769px */
+
+@media(max-width:1001px) {
+.container {
+    padding-inline: 24px;
+}
+}
+
+/* 800px */
+@media(max-width:801px) {
+   
+      
+        .container {
+            padding: 32px 24px;
+        }
+    
+      
+        .main_section {
+            flex-direction: column;
+            row-gap:  64px;
+            padding-inline: 16px;
+        }
+        .button_section_mapside_top {
+            row-gap: 38px;
+        }
+    
+    
+}
+  

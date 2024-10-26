@@ -1,0 +1,45 @@
+/* 480px-320px */
+@media (max-width: 481px) {
+    .container {
+        padding: 32px 20px;
+    }
+
+    .main_section {
+
+        padding: 16px;
+    }
+
+    .text_email_section {
+        flex-direction: column;
+        row-gap: 36px;
+    }
+     
+    .button_section_mapside_top {
+        row-gap: 36px;
+    }
+    .map {
+        height: 200px;
+    }
+    .button_section_mapside_top {
+        row-gap: 38px;
+    }
+}
+@media (max-width: 321px) {
+  
+    .button_section_mapside_top {
+        row-gap: 10px;
+    }
+    .nav_section {
+        gap: 24px;
+    }
+    .container {
+        padding: 16px 8px;
+    }
+    .button_section_mapside_top {
+        gap: 35px;
+    }
+   
+    .main_section {
+        padding-inline: 8px;
+    }
+}
